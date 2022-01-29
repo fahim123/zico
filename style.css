@@ -1,0 +1,276 @@
+/* Reset Code */
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+ul{
+    list-style: none;
+}
+.fix:before, .fix:after{
+    content:"";
+    display:table;
+    clear:both;
+}
+
+/* Body CSS */
+
+body{
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.area{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* Header CSS */
+
+.header {
+    width: 1000px;
+    height: 102px;
+    padding: 10px;
+    background-color: #ffc107;
+}
+.logo {
+    float: left;
+}
+.logo img {
+    width: 136px;
+    height: 84px;
+}
+.name {
+    float: left;
+}
+.name h1 {
+    padding: 12px;
+    font-size: 36px;
+    font-family: arial narrow;
+    font-weight: 900;
+    color: chocolate;
+}
+.menu {
+    font-size: 18px;
+    font-family: sans-serif;
+    float: right;
+}
+.menu ul {
+    text-align: right;
+}
+.menu ul li {
+    display: inline-block;
+    padding: 8px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.menu ul li a{
+    text-decoration: none;
+}
+.menu ul li a img{}
+.menu ul li a:hover{
+    background-color: rgb(231, 181, 181);
+    border-radius: 10px;
+    padding: 5px;
+    color: teal;
+}
+
+/* Banner CSS */
+
+.banner{
+    position: relative;
+}
+.banner img {
+    margin-bottom: -7px;
+}
+.years {
+    position: absolute;
+    width: 250px;
+    padding: 30px;
+    margin-top: -381px;
+    margin-left: 100px;
+}
+.years img{
+    .years img {
+        height: 100px;
+    }
+}
+.banner h1 {
+    position: absolute;
+    float: left;
+    padding: 50px;
+    margin-top: -245px;
+    font-size: 38px;
+    font-family: sans-serif;
+    color: saddlebrown;
+}
+
+/* Together CSS */
+
+.together{}
+.title{}
+.title h4 {
+	text-align: center;
+	font-size: 22px;
+	font-family: arial narrow;
+	color: white;
+	background-color: teal;
+	padding: 3px;
+	margin-bottom: 4px;
+}
+.side-photo{}
+.photo {
+    background-color: #4caf50;
+    width: 320px;
+    float: left;
+    margin-right: 20px;
+    padding: 20px;
+}
+.photo:last-child{
+    margin-right: 0;
+}
+.photo h4 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-family: arial narrow;
+    color: snow;
+}
+.photo img{}
+.photo p{}
+.photo a{}
+
+/* footer CSS */
+.footer {    
+    background-color: #ffc107
+}
+.footer p {
+    text-align: center;
+    font-size: 14px;
+    color: darkslateblue;
+    margin: 4px auto;
+    padding: 8px;
+}
+
+/* Page Banner CSS */
+.page-banner {
+    margin-bottom: 186px;
+}
+.page-banner img {
+    float: right;
+    height: 172px;
+}
+.page-banner h1 {
+    float: right;
+    font-family: arial narrow;
+    margin-right: 31px;
+    font-size: 42px;
+    margin-top: -52px;
+    color: aquamarine;
+}
+.page-years{}
+.page-years h4 {
+    float: left;
+    margin-top: -123px;
+    margin-left: 114px;
+    font-size: 50px;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+.page-years img {
+    width: 241px;
+    float: right;
+    margin-top: -186px;
+    padding: 20px;
+    margin-right: 365px;
+    height: 212px;
+}
+
+/* Content CSS */
+.page-content {
+    background-color: aliceblue;
+    margin-top: -11px;
+}
+.page-content h2 {
+    font-size: 22px;
+    margin: auto;
+    font-family: arial narrow;
+    color: brown;
+    padding: 10px;
+    margin-bottom: -13px;
+}
+.page-content p {
+    font-size: 18px;
+    text-align: justify;
+    font-family: arial narrow;
+    line-height: 32px;
+    padding: 10px;
+}
+
+/* Showroom */
+.showroom {
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0;
+}
+.showroom h2{}
+.showroom p{}
+
+/* Contact CSS */
+.contact{
+    padding: auto;
+}
+.contact-form {
+    width: 712px;
+    float: left;
+    margin-right: 72px;
+}
+.contact-form h2, .contact-address h2 {
+    font-size: 30px;
+    font-family: arial narrow;
+    padding: 50px;
+    margin-bottom: -15px;
+    color: green;
+    font-weight: bold;
+}
+.contact-form form{}
+.contact-form input {
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 10px;
+    border: 1px solid #e7989c;
+}
+.contact-form textarea {
+    width: 100%;
+    border: 1px solid #e7989c;
+    padding: 10px;
+    height: 177px;
+}
+.contact-form input[type="submit"] {
+    width: auto;
+    border: none;
+    background-color: tomato;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 65px;
+    transition: .3s;
+}
+.contact-form input[type="submit"]:hover{
+    background-color: yellowgreen;
+}
+.contact-address{}
+.contact-address ul{}
+.contact-address ul li {
+    font-size: 18px;
+    font-family: arial narrow;
+    line-height: 30px;
+}
+
